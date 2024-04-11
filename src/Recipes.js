@@ -1,18 +1,23 @@
 import React from "react";
+import Results from "./Results";
+import Research from "./Research";
+
+import "./Recipes.css";
 
 export default function Recipes(props) {
   if (props.recipes) {
-    console.log(props.recipes);
     return (
       <div className="Recipes">
-        <h2>We've found some results for you😋</h2>
-        {props.recipes.results.map(function (recipe, index) {
-          return (
-            <div key={index}>
-              <img src={recipe.image} alt={recipe.title} />
-            </div>
-          );
-        })}
+        <Research research={props.recipes.results} />
+        <div className="row">
+          {props.recipes.results.map(function (recipe, index) {
+            return (
+              <div key={index} className="col-4 mt-3">
+                <Results result={recipe} />
+              </div>
+            );
+          })}
+        </div>
       </div>
     );
   } else {

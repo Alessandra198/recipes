@@ -1,21 +1,25 @@
 :root {
-    --font: "Roboto", sans-serif;
+  --font: "Roboto", sans-serif;
 }
 
-.Search .input-search{
-    padding: 5px 30px 5px 10px;
-    font-size: 20px;
-    border-radius: 10px;
-    border: none;
-    font-family: var(--font);
+.Search form {
+  text-align: center;
+}
+
+.Search .input-search {
+  padding: 5px 30px 5px 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  font-family: var(--font);
 }
 
 .Search .input-button {
-    padding: 5px 10px;
-    font-size: 20px;
-    margin-left: 10px;
-    border-radius: 10px;
-    background-color: rgb(252, 209, 156);
-    border: 1px solid rgb(252, 209, 156);
-    font-family: var(--font);
+  padding: 5px 10px;
+  font-size: 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: rgb(252, 209, 156);
+  border: 1px solid rgb(252, 209, 156);
+  font-family: var(--font);
 }
