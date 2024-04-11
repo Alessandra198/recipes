@@ -5,10 +5,10 @@ import "./Search.css";
 
 export default function Search() {
   let [text, setText] = useState(null);
-  let [recipe, setRecipe] = useState(null);
+  let [recipes, setRecipes] = useState(null);
 
   function handleResponse(response) {
-    setRecipe(response.data);
+    setRecipes(response.data);
   }
 
   function handleChange(event) {
@@ -35,7 +35,7 @@ export default function Search() {
         />
         <input type="button" value="Search" className="input-button" />
       </form>
-      <Recipes recipe={recipe}/>
+      <Recipes recipes={recipes}/>
     </div>
   );
 }
