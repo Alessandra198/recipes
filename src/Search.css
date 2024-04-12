@@ -1,7 +1,3 @@
-:root {
-  --font: "Roboto", sans-serif;
-}
-
 .Search form {
   text-align: center;
 }
@@ -11,7 +7,7 @@
   font-size: 20px;
   border-radius: 10px;
   border: none;
-  font-family: var(--font);
+  font-family: "Kalam", cursive;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -23,7 +19,7 @@
   border-radius: 10px;
   background-color: rgb(205, 100, 14);
   border: 1px solid white;
-  font-family: var(--font);
+  font-family: "Kalam", cursive;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 

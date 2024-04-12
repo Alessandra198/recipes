@@ -31,7 +31,7 @@ export default function Search() {
       <form onSubmit={handleSubmit} className="mt-4">
         <input
           type="search"
-          placeholder="Ex. chicken, carbonara.."
+          placeholder="Ex. cookies, tomato.."
           className="input-search"
           onChange={handleChange}
         />

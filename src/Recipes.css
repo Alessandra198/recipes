@@ -1,10 +1,11 @@
 .Recipes {
-    font-family: "Indie Flower", cursive;
+    font-family: "Kalam", cursive;
     text-align: left;
 }
 
 .Recipes h3 {
-    font-size: 30px;
+    font-size: 28px;
+    margin: 0;
 }
 
 @media (max-width: 500px) {
