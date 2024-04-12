@@ -29,10 +29,10 @@
 
 @media (max-width: 500px) {
   .Search .input-button {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .Search .input-search {
-    font-size: 13px;
+    font-size: 15px;
   }
 }

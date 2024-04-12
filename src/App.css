@@ -36,11 +36,10 @@
   color: white;
 }
 
-
 @media (max-width: 900px) {
-
-  .App .container{
+  .App .container {
     margin-bottom: 15px;
+    padding: 10px;
   }
 }
 
@@ -48,8 +47,7 @@
   .App h1 {
     font-size: 35px;
   }
-    .App h2 {
+  .App h2 {
     font-size: 20px;
   }
-
 }
