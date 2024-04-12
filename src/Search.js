@@ -9,6 +9,7 @@ export default function Search() {
 
   function handleResponse(response) {
     setRecipes(response.data);
+    console.log(recipes);
   }
 
   function handleChange(event) {
@@ -18,8 +19,9 @@ export default function Search() {
   function handleSubmit(event) {
     event.preventDefault();
 
-    let apiKey = "f5d58339ffc84d67b18efd9c3bb8f130";
-    let apiUrl = `https://api.spoonacular.com/recipes/complexSearch?apiKey=${apiKey}&query=${text}`;
+    let apiId = "587e122b";
+    let apiKey = "%2079be4e4ac76bdc08f8e645b323b8a033";
+    let apiUrl = `https://api.edamam.com/api/recipes/v2?type=public&q=${text}&app_id=${apiId}&app_key=${apiKey}`;
 
     axios.get(apiUrl).then(handleResponse);
   }
@@ -35,7 +37,7 @@ export default function Search() {
         />
         <input type="button" value="Search" className="input-button" />
       </form>
-      <Recipes recipes={recipes}/>
+      <Recipes recipes={recipes} />
     </div>
   );
 }

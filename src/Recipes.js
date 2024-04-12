@@ -1,6 +1,5 @@
 import React from "react";
 import Results from "./Results";
-import Research from "./Research";
 
 import "./Recipes.css";
 
@@ -8,12 +7,12 @@ export default function Recipes(props) {
   if (props.recipes) {
     return (
       <div className="Recipes">
-        <Research research={props.recipes.results} />
+        <h3 className="mt-3">Here what we found😋</h3>
         <div className="row">
-          {props.recipes.results.map(function (recipe, index) {
+          {props.recipes.hits.map(function (recipe, index) {
             return (
-              <div key={index} className="col-4 mt-3">
-                <Results result={recipe} />
+              <div key={index} className="col-sm-3 mt-3">
+                <Results hits={recipe} />
               </div>
             );
           })}
