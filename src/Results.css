@@ -9,3 +9,10 @@
   transform: scale(1.2);
   opacity: 0.8;
 }
+
+@media (max-width: 900px) {
+
+  .Results img:hover {
+    transform: scale(1.1);
+  }
+}
