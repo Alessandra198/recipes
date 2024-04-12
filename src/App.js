@@ -5,10 +5,12 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Recipes by Rina</h1>
-        <em>
-          <h2>What would you like to cook?</h2>
-        </em>
+        <header>
+          <h1>Recipes by Rina</h1>
+          <em>
+            <h2>What would you like to cook?</h2>
+          </em>
+        </header>
         <Search />
       </div>
     </div>

@@ -12,14 +12,19 @@
   border-radius: 10px;
   border: none;
   font-family: var(--font);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .Search .input-button {
+  color: white;
   padding: 5px 10px;
   font-size: 20px;
   margin-left: 10px;
   border-radius: 10px;
-  background-color: rgb(252, 209, 156);
-  border: 1px solid rgb(252, 209, 156);
+  background-color: rgb(205, 100, 14);
+  border: 1px solid white;
   font-family: var(--font);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
+
+

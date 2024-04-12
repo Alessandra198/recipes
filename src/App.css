@@ -8,17 +8,30 @@
   max-width: 900px;
 }
 
-.App h1 {
+.App header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../public/sfondo.jpeg");
+  filter: opacity(85%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
+  padding: 25px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.App h1 {
   font-size: 50px;
   margin-bottom: 0;
-  color: #f24822;
+  color: #ee7357;
   font-family: "Permanent Marker", cursive;
   font-weight: 400;
   font-style: normal;
 }
 
-.App h2 {
-  text-align: center;
-  margin: 10px 0 30px 0;
+.App header h2 {
+  margin: 10px 0 10px 0;
+  color: white;
 }
