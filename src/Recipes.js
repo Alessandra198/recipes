@@ -11,7 +11,7 @@ export default function Recipes(props) {
         <div className="row">
           {props.recipes.hits.map(function (recipe, index) {
             return (
-              <div key={index} className="col-sm-3 mt-3">
+              <div key={index} className="col-6 col-md-3 mt-3">
                 <Results hits={recipe} />
               </div>
             );

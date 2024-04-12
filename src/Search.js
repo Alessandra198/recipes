@@ -28,7 +28,7 @@ export default function Search() {
 
   return (
     <div className="Search">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="mt-4">
         <input
           type="search"
           placeholder="Ex. chicken, carbonara.."

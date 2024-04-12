@@ -2,3 +2,13 @@
     font-family: "Indie Flower", cursive;
     text-align: left;
 }
+
+.Recipes h3 {
+    font-size: 30px;
+}
+
+@media (max-width: 500px) {
+.Recipes h3 {
+    font-size: 16px;
+}
+}
